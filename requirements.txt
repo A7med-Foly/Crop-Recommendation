@@ -5,11 +5,14 @@ scikit-learn
 xgboost
 joblib
 
+# ── Frontend ──────────────────────────────────────────────────────────────────
+streamlit>=1.40.0
+altair>=5.3.0
+
 # ── API serving ───────────────────────────────────────────────────────────────
 fastapi
 uvicorn
 pydantic
-streamlit
 
 # ── Dev / testing ─────────────────────────────────────────────────────────────
 pytest
