@@ -92,7 +92,7 @@ def predict_crop(
     probabilities   = _model.predict_proba(input_scaled)[0]
     confidence      = round(float(probabilities.max()), 4)
 
-    # predicted_index is already a crop name (e.g. 'rice') for RandomForest
+    # predicted_index is already a crop name (e.g. 'rice') for Naive Bayes
     # because we trained it on string labels — no LabelEncoder needed
     crop = predicted_index
 

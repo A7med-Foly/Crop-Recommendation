@@ -121,8 +121,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--data",
         type=str,
-        default="data/raw/Crop_recommendation.xlsx",
-        help="Path to the raw Excel file"
+        default="data/raw/Crop_recommendation.csv",
+        help="Path to the raw CSV file"
     )
     args = parser.parse_args()
     train(args.data)
