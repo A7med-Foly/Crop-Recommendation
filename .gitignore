@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# Models — generated at runtime, not committed
+# (Streamlit Cloud trains them on first run)
+models/*.pkl
+models/*.joblib
+
+# But DO commit metrics and label classes (they're tiny JSON files)
+!models/metrics.json
+!models/label_classes.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
