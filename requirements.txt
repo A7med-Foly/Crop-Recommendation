@@ -1,0 +1,15 @@
+# ── Core data & ML ────────────────────────────────────────────────────────────
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+
+# ── API serving ───────────────────────────────────────────────────────────────
+fastapi
+uvicorn
+pydantic
+streamlit
+
+# ── Dev / testing ─────────────────────────────────────────────────────────────
+pytest
